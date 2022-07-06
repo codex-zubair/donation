@@ -141,6 +141,31 @@ body
 .donation-plan-box-section
 {
     display: flex;
+    margin: 40px 200px;
+}
+
+
+.donation-plan-1-div
+{
+    background-color: rgba(79, 157, 166, 0.1);
+    width: 33.33;
+    margin: 10px;
+
+}
+
+.donation-plan-2-div
+{
+    background-color: rgba(255, 89, 89, 0.1);
+    width: 33.33;
+    margin: 10px;
+}
+
+
+.donation-plan-3-div
+{
+   background-color: rgba(255, 244, 214, 1);
+   width: 33.33;
+   margin: 10px;
 }
 
 
@@ -159,9 +184,54 @@ body
 
 
 
+.how-we-contribute-child-right-div img
+{
+    width: 50vw;
+}
+
+
+.how-we-contribute-button
+{
+    text-decoration: none;
+    background-image: linear-gradient(red,orange);
+    padding: 10px 20px;
+    border-radius: 15px;
+    color: white;
+}
+
+
 
 
 /* Experiment */
+
+
+
+
+/* Get My updates Section + Email Subscription Form  */
+
+.get-my-update-section
+{   
+    
+    text-align: center;
+    padding: 5% 20%;
+    
+}
+
+
+.form-for-email-subscription
+{
+    background-color: #FFF4D6;
+    padding: 40px 50px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -179,6 +249,13 @@ footer
 footer h2
 {
     color: white;
-    padding: 40px;
+    
+
+}
+
+
+footer p
+{
+    color: white;
 
 }
