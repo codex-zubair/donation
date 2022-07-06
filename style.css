@@ -1,3 +1,9 @@
+*{margin:0;
+    padding:0;
+    }
+
+
+
 body
 {
     font-family: 'Oswald', sans-serif;
@@ -72,6 +78,7 @@ hr
 .top-section p
 {
     color: azure;
+    padding: 40px;
     
 }
 
@@ -120,19 +127,26 @@ hr
     height: 11vw;
     margin: 10px 200px;
     
-
-
-
-    
 }
+
+
+.donate-amount-parent-div h1
+{
+    padding-top: 2.5vw;
+    padding-bottom:5px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
 
 .donate-div
 {   
-    text-align: center;
+    text-align:center;
     width: 20%;
     border-radius: 5px;
     margin: 10px;
     background-color: rgba(250, 250, 250, 1);
+    
 }
 
 
@@ -140,6 +154,7 @@ hr
 {   
     border: 2px solid rgb(255, 89, 89);
     background-color: rgba(255, 89, 89, 0.223);
+    
 }
 
 
@@ -196,6 +211,7 @@ hr
 .donation-plan-about-section
 {
     text-align: center;
+    margin-top:40px ;
 
 }
 
@@ -278,13 +294,13 @@ hr
 }
 
 
-.how-we-contribute-child-right-div img
+.how-we-contribute-child-left-div p
 {
-    width: 40vw;
-    height: 30vw;
-    border-radius: 10px;
-}
+    padding-right:20px;
+    padding-bottom: 20px;
 
+
+}
 
 .how-we-contribute-button
 {
@@ -294,6 +310,15 @@ hr
     border-radius: 15px;
     color: white;
 }
+
+.how-we-contribute-child-right-div img
+{
+    width: 40vw;
+    height: 30vw;
+    border-radius: 10px;
+}
+
+
 
 
 
