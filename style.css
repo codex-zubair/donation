@@ -183,8 +183,8 @@ hr
 {
     border: none;
     text-align: center;
-    font-size: 20px;
-    color: rgb(123, 116, 116);
+    font-size: 1.4vw;
+    padding: 1vw;
 }
 
 .donate-button-section
