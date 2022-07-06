@@ -6,7 +6,7 @@
 
 body
 {
-    font-family: 'Gentium Book Plus', serif;
+    font-family: 'Newsreader', serif;
 
 }
 
@@ -23,14 +23,16 @@ body h2
 
 body p
 {   
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
+    font-family: 'News Cycle', sans-serif;
+    font-size: 1.7vw;
+    padding-top:10px ;
 }
 
 
 #heading
 {
     font-size: 80px;
+    
 }
 
 
@@ -56,37 +58,35 @@ hr
 
 .top-section-div
 {
-    padding: 200px 100px;
-}
-
-
-
-
-.top-section-div
-{
+    padding: 200px 300px;
     text-align: center;
-    padding-top: 250px;
 }
+
+
+
+
 
 
 
 .top-section h1
 {
     font-size: 4vw;
-    color: rgb(251, 226, 187);
+    color: rgba(238, 240, 220, 0.856);
     
 }
 
 .top-section p
 {
-    color: azure;
+    color: white;
     padding: 40px;
+    font-weight: bold;
     
 }
 
 .donate-now-button-top
 {   
     background-image: linear-gradient(orange,red);
+    font-size: 1.4vw;
     text-decoration: none;
     color: white;
     padding: 10px 30px;
@@ -198,6 +198,7 @@ hr
 .donate-now-button-middle
 {
     background-image: linear-gradient(rgb(255, 0, 8),tomato);
+    font-size: 1.4vw;
     text-decoration: none;
     padding: 10px 30px;
     border-radius: 10px;
@@ -233,6 +234,12 @@ hr
     display: flex;
     margin: 40px 200px;
 }
+
+.donation-plan-box-section h2
+{
+    padding-top: 20px;
+}
+
 
 #donation-plan-icon
 {
@@ -299,7 +306,7 @@ hr
 .how-we-contribute-child-left-div p
 {
     padding-right:20px;
-    padding-bottom: 20px;
+    padding-bottom: 40px;
 
 
 }
@@ -309,8 +316,9 @@ hr
     text-decoration: none;
     background-image: linear-gradient(red,orange);
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 10px;
     color: white;
+    font-size: 1.4vw;
 }
 
 .how-we-contribute-child-right-div img
@@ -356,14 +364,16 @@ hr
 #subscribe-button
 {
     background-image: linear-gradient(orange,tomato);
-    padding: 10px 30px;
+    padding: 0.5vw 1vw;
+    font-size: 1.4vw;
 }
 
 
 #input-email
 {
-    padding: 10px 30px;
+    padding: 0.5vw 1vw;
     background-color:aliceblue;
+    font-size: 1.4vw;
 
 }
 
@@ -393,6 +403,9 @@ footer h2
 {
     color: white;
     
+    padding-top:15px ;
+    font-size: 30px;
+    
 
 }
 
@@ -400,5 +413,7 @@ footer h2
 footer p
 {
     color: white;
+    font-weight: 100;
+
 
 }
