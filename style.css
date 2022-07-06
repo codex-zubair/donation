@@ -4,13 +4,42 @@ body
 }
 
 
+body h1
+{
+    font-size: 3.5vw;
+}
+
+body h2
+{
+    font-size: 30px;
+}
+
+body p
+{
+    font-size: 20px;
+}
+
+
+#heading
+{
+    font-size: 80px;
+}
+
+
+hr
+{
+    margin: 20px 200px;
+    color: rgba(188, 183, 183, 0.252);
+
+}
+
+
 /*---------------------------------------------*/
 /* TOP SECTION */
 
-
 .top-section
 {
-    background-image: url(./images/coverimage.png);
+    background-image: url(./images/coverimage.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 70%;
@@ -51,8 +80,8 @@ body
     background-image: linear-gradient(orange,red);
     text-decoration: none;
     color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
+    padding: 10px 30px;
+    border-radius: 5px;
     
 }
 
@@ -64,24 +93,61 @@ body
 .donate-today-section
 {
     text-align: center;
+    margin: 104px 155px;
+   
 }
+
+.donate-today-section p
+{
+    padding: 0px 150px;
+}
+
+
+
+
+
+/* Section for Donation Amount */
 
 
 .donate-amount-parent-div
 {
     display: flex;
+
+    
+    margin: 10px;
+
     text-align: center;
-    margin: 30px;
+    height: 11vw;
+    margin: 10px 200px;
+    
+
+
 
     
 }
 
 .donate-div
-{
+{   
+    text-align: center;
     width: 20%;
-    border: 1px solid black;
-    margin: 20px;
-    padding: 20px;
+    border-radius: 5px;
+    margin: 10px;
+    background-color: rgba(250, 250, 250, 1);
+}
+
+
+#div-200tk
+{   
+    border: 2px solid rgb(255, 89, 89);
+    background-color: rgba(255, 89, 89, 0.223);
+}
+
+
+
+.donate-div h1
+{
+    font-size: 3vw;
+    font-weight: 500;
 }
 
 
@@ -90,7 +156,16 @@ body
 
 /*---------------------------------------------*/
 
-/* Donate Button Section */
+/* Donate Amount + Button Section */
+
+
+#donate-amount-input-id
+{
+    border: none;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(123, 116, 116);
+}
 
 .donate-button-section
 {
@@ -99,14 +174,19 @@ body
 }
 
 
+
+
+
+
 .donate-now-button-middle
 {
     background-image: linear-gradient(rgb(255, 0, 8),tomato);
     text-decoration: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 10px;
     color: white;
 }
+
 
 /*---------------------------------------------*/
 
@@ -117,6 +197,11 @@ body
 {
     text-align: center;
 
+}
+
+.donation-plan-about-section p
+{
+    padding: 0px 350px;
 }
 
 
@@ -131,18 +216,31 @@ body
     margin: 40px 200px;
 }
 
+#donation-plan-icon
+{
+    height: 49.77px;
+    width: 58px;
+}
+
+
 
 .donation-plan-1-div
 {
     background-color: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+    padding: 20px;
     width: 33.33;
     margin: 10px;
 
 }
 
+
+
 .donation-plan-2-div
 {
     background-color: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+    padding: 20px;
     width: 33.33;
     margin: 10px;
 }
@@ -151,6 +249,8 @@ body
 .donation-plan-3-div
 {
    background-color: rgba(255, 244, 214, 1);
+   border-radius: 5px;
+   padding: 20px;
    width: 33.33;
    margin: 10px;
 }
@@ -167,13 +267,22 @@ body
 .how-we-contribute-parent-div
 {
     display: flex;
+    margin: auto 210px;
 }
 
+
+.how-we-contribute-child-left-div
+{
+    padding-right:10px;
+
+}
 
 
 .how-we-contribute-child-right-div img
 {
-    width: 50vw;
+    width: 40vw;
+    height: 30vw;
+    border-radius: 10px;
 }
 
 
@@ -204,11 +313,31 @@ body
     
 }
 
+.get-my-update-section-div
+{
+    padding: 1px 50px;
+}
+
 
 .form-for-email-subscription
 {
     background-color: #FFF4D6;
     padding: 40px 50px;
+}
+
+
+#subscribe-button
+{
+    background-image: linear-gradient(orange,tomato);
+    padding: 10px 30px;
+}
+
+
+#input-email
+{
+    padding: 10px 30px;
+    background-color:aliceblue;
+
 }
 
 
