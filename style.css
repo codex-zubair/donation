@@ -197,11 +197,11 @@ hr
 
 .donate-now-button-middle
 {
-    background-image: linear-gradient(rgb(255, 0, 8),tomato);
+    background-image: linear-gradient(orange,red);
     font-size: 1.4vw;
     text-decoration: none;
     padding: 10px 30px;
-    border-radius: 10px;
+    border-radius: 5px;
     color: white;
 }
 
@@ -314,9 +314,9 @@ hr
 .how-we-contribute-button
 {
     text-decoration: none;
-    background-image: linear-gradient(red,orange);
-    padding: 10px 20px;
-    border-radius: 10px;
+    background-image: linear-gradient(orange,red);
+    padding: 15px 20px;
+    border-radius: 5px;
     color: white;
     font-size: 1.4vw;
 }
