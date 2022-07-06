@@ -6,7 +6,8 @@
 
 body
 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Gentium Book Plus', serif;
+
 }
 
 
@@ -21,7 +22,8 @@ body h2
 }
 
 body p
-{
+{   
+    font-family: 'Roboto', sans-serif;
     font-size: 20px;
 }
 
