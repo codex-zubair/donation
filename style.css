@@ -71,32 +71,19 @@ body
 {
     display: flex;
     text-align: center;
+    margin: 30px;
+
+    
 }
 
-.donate-div-100
+.donate-div
 {
     width: 20%;
+    border: 1px solid black;
+    margin: 20px;
+    padding: 20px;
 }
 
-.donate-div-200
-{
-    width: 20%;
-}
-
-.donate-div-500
-{
-    width: 20%;
-}
-
-.donate-div-1000
-{
-    width: 20%;
-}
-
-.donate-div-5000
-{
-    width: 20%;
-}
 
 
 
