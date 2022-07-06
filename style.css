@@ -152,6 +152,13 @@ body
 
 
 /* Section how We Contribute */
+.how-we-contribute-parent-div
+{
+    display: flex;
+}
+
+
+
 
 
 /* Experiment */
