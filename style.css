@@ -1,0 +1,177 @@
+body
+{
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/*---------------------------------------------*/
+/* TOP SECTION */
+
+
+.top-section
+{
+    background-image: url(./images/coverimage.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70%;
+    
+}
+
+.top-section-div
+{
+    padding: 200px 100px;
+}
+
+
+
+
+.top-section-div
+{
+    text-align: center;
+    padding-top: 250px;
+}
+
+
+
+.top-section h1
+{
+    font-size: 4vw;
+    color: rgb(251, 226, 187);
+    
+}
+
+.top-section p
+{
+    color: azure;
+    
+}
+
+.donate-now-button-top
+{   
+    background-image: linear-gradient(orange,red);
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    
+}
+
+
+/*---------------------------------------------*/
+/* Donate-Today-Section */
+
+
+.donate-today-section
+{
+    text-align: center;
+}
+
+
+.donate-amount-parent-div
+{
+    display: flex;
+    text-align: center;
+}
+
+.donate-div-100
+{
+    width: 20%;
+}
+
+.donate-div-200
+{
+    width: 20%;
+}
+
+.donate-div-500
+{
+    width: 20%;
+}
+
+.donate-div-1000
+{
+    width: 20%;
+}
+
+.donate-div-5000
+{
+    width: 20%;
+}
+
+
+
+
+/*---------------------------------------------*/
+
+/* Donate Button Section */
+
+.donate-button-section
+{
+    text-align: center;
+
+}
+
+
+.donate-now-button-middle
+{
+    background-image: linear-gradient(rgb(255, 0, 8),tomato);
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: white;
+}
+
+/*---------------------------------------------*/
+
+/* donation-Plan-About-Section" */
+
+
+.donation-plan-about-section
+{
+    text-align: center;
+
+}
+
+
+
+/*---------------------------------------------*/
+
+/* donation-plan-Box-Section */
+
+.donation-plan-box-section
+{
+    display: flex;
+}
+
+
+
+
+
+
+/*---------------------------------------------*/
+
+
+/* Section how We Contribute */
+
+
+/* Experiment */
+
+
+
+
+
+/* Footer Section */
+footer
+{
+    background-color: black;
+    height: 100px;
+    text-align: center;
+}
+
+
+footer h2
+{
+    color: white;
+    padding: 40px;
+
+}
