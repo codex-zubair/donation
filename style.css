@@ -360,22 +360,24 @@ hr
     padding: 40px 50px;
 }
 
+#input-email
+{   
+    border: none;
+    padding: 0.5vw 1vw;
+    background-color:aliceblue;
+    font-size: 1.4vw;
+
+}
 
 #subscribe-button
 {
+    border: none;
     background-image: linear-gradient(orange,tomato);
     padding: 0.5vw 1vw;
     font-size: 1.4vw;
 }
 
 
-#input-email
-{
-    padding: 0.5vw 1vw;
-    background-color:aliceblue;
-    font-size: 1.4vw;
-
-}
 
 
 
