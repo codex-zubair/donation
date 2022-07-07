@@ -71,7 +71,7 @@ hr
 .top-section h1
 {
     font-size: 4vw;
-    color: rgba(210, 146, 27, 0.949);
+    color: rgba(202, 161, 86, 0.949);
     margin:margin: 2% 20%;
     
 }
@@ -301,8 +301,8 @@ hr
 .how-we-contribute-parent-div
 {
     display: flex;
-    margin: auto 210px;
-    margin-top:100px;
+    margin: 5% 10%;
+    
 }
 
 
