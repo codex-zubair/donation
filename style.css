@@ -79,6 +79,7 @@ hr
     padding: 40px;
     font-weight: bold;
     
+    
 }
 
 .donate-now-button-top
@@ -128,6 +129,7 @@ hr
     text-align: center;
     height: 11vw;
     margin: 10px 200px;
+
     
      
 }
@@ -144,9 +146,9 @@ hr
 {   
     text-align:center;
     width: 20%;
+    height: 80%;
     border-radius: 5px;
     padding: 0.5vw;
-    
 
     margin: 10px 15px 10px;
     
@@ -289,6 +291,7 @@ hr
 {
     display: flex;
     margin: auto 210px;
+    margin-top:100px;
 }
 
 
