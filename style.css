@@ -143,22 +143,10 @@ hr
 }
 
 
-/* .donate-div
-{   
-    text-align:center;
-    width: 20%;
-    height: 80%;
-    border-radius: 5px;
-    padding: 0.5vw;
-
-    margin: 10px 15px 10px;
-    
-    background-color: rgba(250, 250, 250, 1);
-    
-} */
 
 
-.donate-div
+
+.donate-div-amount
 {
     width: 20%;
 
@@ -178,7 +166,7 @@ hr
     
 }
 
-.donate-div h1
+.donate-div-amount h1
 {
     font-size: 3vw;
     font-weight: 500;
@@ -268,7 +256,7 @@ hr
 
 
 
-.donation-plan-1-div
+.donation-card-1st-div
 {
     background-color: rgba(79, 157, 166, 0.1);
     border-radius: 5px;
@@ -280,7 +268,7 @@ hr
 
 
 
-.donation-plan-2-div
+.donation-card-2nd-div
 {
     background-color: rgba(255, 89, 89, 0.1);
     border-radius: 5px;
@@ -290,7 +278,7 @@ hr
 }
 
 
-.donation-plan-3-div
+.donation-card-3rd-div
 {
    background-color: rgba(255, 244, 214, 1);
    border-radius: 5px;
