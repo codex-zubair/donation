@@ -1,3 +1,4 @@
+/* Global Declaration */
 *{margin:0;
     padding:0;
     }
@@ -9,7 +10,6 @@ body
     font-family: 'Newsreader', serif;
 
 }
-
 
 body h1
 {
@@ -42,9 +42,12 @@ hr
     color: rgba(188, 183, 183, 0.252);
 
 }
+/* Global Declaration */
 
 
-/*---------------------------------------------*/
+
+
+
 /* TOP SECTION */
 
 .top-section
@@ -61,11 +64,6 @@ hr
     padding: 200px 300px;
     text-align: center;
 }
-
-
-
-
-
 
 
 .top-section h1
@@ -93,12 +91,15 @@ hr
     border-radius: 5px;
     
 }
+/* TOP SECTION */
 
 
-/*---------------------------------------------*/
+
+
+
+
+
 /* Donate-Today-Section */
-
-
 .donate-today-section
 {
     text-align: center;
@@ -110,13 +111,13 @@ hr
 {
     padding: 0px 150px;
 }
+/* Donate-Today-Section */
 
 
 
 
 
 /* Donate Today Donation Amount Section*/
-
 .donate-amount-parent-div
 {
     display: flex;
@@ -130,7 +131,6 @@ hr
     
      
 }
-
 
 .donate-amount-parent-div h1
 {
@@ -162,23 +162,21 @@ hr
     
 }
 
-
-
 .donate-div h1
 {
     font-size: 3vw;
     font-weight: 500;
 }
+/* Donate Today Donation Amount Section*/
 
 
 
 
 
-/*---------------------------------------------*/
+
+
 
 /* Donate Amount + Button Section */
-
-
 #donate-amount-input-id
 {
     border: none;
@@ -194,11 +192,6 @@ hr
 
 }
 
-
-
-
-
-
 .donate-now-button-middle
 {
     background-image: linear-gradient(orange,red);
@@ -208,13 +201,11 @@ hr
     border-radius: 5px;
     color: white;
 }
+/* Donate Amount + Button Section */
 
 
-/*---------------------------------------------*/
 
 /* donation-Plan-About-Section" */
-
-
 .donation-plan-about-section
 {
     text-align: center;
@@ -226,13 +217,14 @@ hr
 {
     padding: 0px 350px;
 }
+/* donation-Plan-About-Section" */
 
 
 
-/*---------------------------------------------*/
+
+
 
 /* donation-plan-Box-Section */
-
 .donation-plan-card-section
 {
     display: flex;
@@ -283,13 +275,13 @@ hr
    width: 33.33;
    margin: 10px;
 }
+/* donation-plan-Box-Section */
 
 
 
 
 
 
-/*---------------------------------------------*/
 
 
 /* Section how We Contribute */
@@ -331,19 +323,18 @@ hr
     height: 30vw;
     border-radius: 10px;
 }
+/* Section how We Contribute */
 
 
 
 
 
 
-/* Experiment */
 
 
 
 
 /* Get My updates Section + Email Subscription Form  */
-
 .get-my-update-section
 {   
     
@@ -386,16 +377,7 @@ hr
     padding: 0.5vw 1vw;
     font-size: 1.4vw;
 }
-
-
-
-
-
-
-
-
-
-
+/* Get My updates Section + Email Subscription Form  */
 
 
 
@@ -421,7 +403,6 @@ footer h2
 
 }
 
-
 footer p
 {
     color: white;
@@ -430,3 +411,4 @@ footer p
 
 
 }
+/* Footer Section */
