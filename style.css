@@ -104,14 +104,13 @@ hr
 .donate-today-section
 {
     text-align: center;
-    margin: 104px 155px;
+    margin-top: 10%;
+    margin: 2% 30%;
+    
    
 }
 
-.donate-today-section p
-{
-    padding: 0px 150px;
-}
+
 /* Donate-Today-Section */
 
 
@@ -219,7 +218,7 @@ hr
 
 .donation-plan-about-section p
 {
-    padding: 0px 350px;
+    margin: 2% 30%;
 }
 /* donation-Plan-About-Section" */
 
