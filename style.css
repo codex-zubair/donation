@@ -115,8 +115,7 @@ hr
 
 
 
-/* Section for Donation Amount */
-
+/* Donate Today Donation Amount Section*/
 
 .donate-amount-parent-div
 {
@@ -129,6 +128,7 @@ hr
     height: 11vw;
     margin: 10px 200px;
     
+     
 }
 
 
@@ -233,13 +233,13 @@ hr
 
 /* donation-plan-Box-Section */
 
-.donation-plan-box-section
+.donation-plan-card-section
 {
     display: flex;
     margin: 40px 200px;
 }
 
-.donation-plan-box-section h2
+.donation-plan-card-section h2
 {
     padding-top: 20px;
 }
